@@ -1,3 +1,19 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* BODY & OTHER */
 body{
-    background-color: red;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    user-select: none;
+    background-color: #e0e0e0;
+    color: #212121;
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
 }
