@@ -10,6 +10,8 @@
         <title>SPLIT - Accueil</title>
     </head>
     <body>
+        <?php include('./assets/templates/header.php'); ?>
+        <br/>
         <span>test</span>
         <br/>
         <span><?php echo "php" . PHP_EOL;?></span>
