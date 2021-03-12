@@ -1,3 +1,6 @@
+<?php
+    include('./inc/core.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,7 +17,9 @@
         <br/>
         <span>test</span>
         <br/>
-        <span><?php echo "php" . PHP_EOL;?></span>
+        <span><?php echo "php"; ?></span>
+        <br/>
+        <span><?php echo $test; ?></span>
 
         <script src="/assets/js/script.js"></script>
     </body>
