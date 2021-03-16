@@ -1,0 +1,101 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* BODY & OTHER */
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    user-select: none;
+    background-image: url(../imgs/background_register.jpg);
+    background-position: 575px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e0e0;
+    color: #212121;
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+#hovered{
+    background-position: 575px bottom;
+    transition: all 0.3s;
+}
+
+#left{
+    width: 60%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px 50px 50px 50px;
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    background-color: #212121;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+#right{
+    width: 40%;
+    height: 100vh;
+    margin: 0px;
+    padding: 150px 0px 0px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+/* CONTAINER */
+#left > #title{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 5px 0px;
+    padding: 25px 0px 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#left > #step{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#left > form{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#right > #box_mid{
+    width: 50%;
+    height: auto;
+    left: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #ffffff;
+    color: #212121;
+    transition: all 0.3s;
+}
