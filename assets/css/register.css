@@ -78,8 +78,6 @@ body{
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -89,6 +87,49 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+#left > form > input{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 25px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    border: none;
+    border-left: solid 4px #ffffff00;
+    transition: all 0.4s;
+}
+
+#left > form > input:hover{
+    width: 95%;
+    border-left: solid 4px #daf1ff;
+    transition: all 0.4s;
+}
+
+#left > form > input[type="submit"]{
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 0.2;
+    background-color: #daf1ff;
+    color: #334c5d;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+}
+
+#left > form > input[type="submit"]:hover{
+    cursor: pointer;
+    border-left: solid 4px #ffffff00;
+    background-color: #334c5d;
+    color: #daf1ff;
+    transition: all 0.4s;
 }
 
 #right > #box_mid{

@@ -15,9 +15,13 @@
     <body>
         <div id="left">
             <div id="title"><?php echo $site_name; ?> - Inscription</div>
-            <div id="step">etape 1/3</div>
+            <div id="step">• Pensez bien à avoir lu le règlement avant de vous inscrire</div>
             <form action="" method="POST">
-                test
+                <input type="text" name="" placeholder="Pseudonyme">
+                <input type="mail" name="" placeholder="Adresse mail">
+                <input type="password" name="" placeholder="Mot de passe">
+                <input type="password" name="" placeholder="Répéter votre mot de passe">
+                <input type="submit" name="" value="s'inscrire">
             </form>
         </div>
         <div id="right">
